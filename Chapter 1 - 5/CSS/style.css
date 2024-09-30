@@ -1,0 +1,93 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+html {
+}
+
+main {
+    /*from the units & sizes chapter 
+    width: 50vw;
+    background-color: skyblue;
+    font-size: 1.5rem;
+    */
+}
+
+body { 
+
+
+    /* from the units & sizes chapter 
+    min-height: 100%;
+    width: 100vw;
+    */
+
+    /* From the colors chapter
+    font-size: 22px;
+    font-family: Arial, Arial, Helvetica, sans-serif;
+    line-height: 1.5;
+    background: #495057;
+    color: #212529;
+    */
+}
+
+p {
+    /*from the units & sizes chapter 
+    font-size: 1rem;
+    width: 50ch;
+    */
+}
+
+.container {
+    border: 2px double red;
+   
+    /*
+    border-top-width: 5px;
+    border-top-style: ridge;     Just to show that you can change individual elements
+    border-right: 6px dotted blue; 
+    */
+
+    font-size: 1.2rem;
+    padding: 1.5em;
+    margin: 5em 2em 2em 1em;
+    outline: 5px solid purple;
+    outline-offset: 5px; /*You could use a negative value to have the outline inside the box*/
+   
+    /* margin-top: 5rem;
+    margin-right: 2em;
+    margin-left: 2em;
+    margin-bottom: 1em; 
+    Shorthand above, in the order of top right left bottom */
+}
+
+
+.circle {
+    margin: 3rem auto; 
+    background-color: springgreen;
+    width: 50px;
+    height: 50px; 
+    border: 2px solid #000;
+    border-radius: 25px;
+    outline: 2px solid rgb(36, 47, 54);
+    outline-offset: 0.25rem;
+}
+
+/* From the selectors chapter */
+
+
+.highlight {
+    text-transform: uppercase;
+    background-color: gold;
+}
+
+.gray {
+    color: gray;
+}
+
+#second {
+    font-style: italic;
+}
+
+
